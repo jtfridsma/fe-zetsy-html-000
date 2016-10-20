@@ -1,13 +1,14 @@
 /*////////////// Fonts //////////////*/
 
-/* link the web font used for the level 1 heading here */
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville');
 
 /*////////// Global Styles //////////*/
 
 body {
 	background: #F3EBE9;
 	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+	font-family: 'Times New Roman', serif;
+	color: #555;
 }
 
 .wrapper {
@@ -17,4 +18,61 @@ body {
 	padding: 0 45px 20px;
 }
 
-/* Write all remaining styles here */
+/* Main Styles */
+
+h1 {
+	font-family: 'Libre Baskerville', 'Times New Roman', serif;
+	font-size: 4em;
+	color: rgb(152,173,166);
+	margin-top: 0px;
+	margin-bottom: 5px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #ccc;
+}
+
+h2 {
+  color: rgb(111,127,122);
+	font-size: 2em;
+}
+
+.featured img {
+	border: 5px solid rgb(152,173,166);
+}
+
+footer p {
+	text-align: right;
+	font-size: 0.75em;
+}
+
+/* Links */
+
+a, a img {
+	transition: all 0.5s ease;
+	text-decoration: none;
+}
+
+header h1 a {
+	color: rgb(152,173,166);
+}
+
+header h1 a:hover {
+	color: rgb(111,127,122);
+}
+
+.about p a {
+	color: #1783bb;
+}
+
+.about p a:hover {
+	text-decoration: underline;
+}
+
+.press a img {
+	border: 5px solid #ccc;
+	padding: 1px;
+}
+
+.press a img:hover {
+	border: 5px solid rgb(111,127,122);
+}
